@@ -77,11 +77,11 @@ lab:
 
    > 注:指定の無い項目は、「空欄」または「デフォルト値」で結構です。
 
-   | ユーザー名 | 名前          | 初期パスワード | 利用場所 | 役職     | 部所 |      |
-   | ---------- | ------------- | -------------- | -------- | -------- | ---- | ---- |
-   | AlexW      | Alex Wilber   | Pa55w.rd123    | Japan    | Engineer | IT   |      |
-   | GradyA     | Grady Archie  | Pa55w.rd123    | Japan    | Engineer | IT   |      |
-   | MiriamG    | Miriam Graham | Pa55w.rd123    | 空欄     | 空欄     | 空欄 |      |
+   | ユーザー名 | 名前          | 初期パスワード | 利用場所 | 役職     |
+   | ---------- | ------------- | -------------- | -------- | -------- |
+   | AlexW      | Alex Wilber   | Pa55w.rd123    | Japan    | Engineer |
+   | GradyA     | Grady Archie  | Pa55w.rd123    | Japan    | Engineer |
+   | MiriamG    | Miriam Graham | Pa55w.rd123    | 空欄     | 空欄     |
 
    > 参考：サンプルユーザーの読み方
    >
