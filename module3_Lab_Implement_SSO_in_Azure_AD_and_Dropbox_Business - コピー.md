@@ -19,168 +19,309 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
 
 ## タスク1 - Dropbox Businessを利用登録する
 
-1. [[Office 365 E3の試用版](https://go.microsoft.com/fwlink/p/?LinkID=403802&clcid=0x411&culture=ja-jp&country=JP )]へアクセスします。
+1. 「[Outlook.com](https://outlook.live.com/owa/)」へサインインします。
 
-2. 「始めましょう」と画面に表示されます。講師よりチャットまたはPDFで送付された`ctcXXXX@outlook.jp`を入力します。
+   > 注:XXXXはご自身のアカウント番号を入力してください。
+   >
+   > 注:「アカウントの保護にご協力ください」と表示された場合は「今はしない」を選択してください。
 
-3. あああ
+   | 項目                | 値                              |
+   | ------------------- | ------------------------------- |
+   | メール、電話、Skype | `admin@ctcXXXX.onmicrosoft.com` |
+   | パスワード          | Pa55w.rd1234                    |
 
-4. あああ
+   ![module03-01](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-01.BMP)
 
-5. ああああ
+   
 
-6. あああああ
+2. 受信トレイを表示させ、Webブラウザを最小化します。
 
-7. ああああ
+   > 注：後の手順で使用します。
 
-8. あああああ
+   ![module03-02](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-02.BMP)
 
-9. あああああ
+   
 
-10. あああああ
+3. 新しいWebブラウザのウィンドウを開き、「[Dropbox Advanced 無料トライアル](https://www.dropbox.com/business/try?sku=adv)」のページにアクセスします。
 
-11. あああああああああ
+   ![module03-03](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-03.BMP)
 
-12. あ
+   
 
-13. あ
+4. 次の情報を使用して「無料トライアル版の利用を開始」をクリックします。
 
-14. あ
+   > 注：XXXXはご自身のアカウント番号を入力してください。
+   >
+   > 注：指定の無い項目は、「空欄」または「デフォルト値」で結構です。
 
-15. ああ
+   | 項目           | 値                              |
+   | -------------- | ------------------------------- |
+   | 名前           | XXXX                            |
+   | 姓             | ctc                             |
+   | メールアドレス | `admin@ctcXXXX.onmicrosoft.com` |
+   | パスワード     | Pa55w.rd1234                    |
+   | チーム名       | ctcXXXX                         |
 
-16. ああ
+   ![module03-04](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-04.BMP)
 
-17. ああ
+   
 
-18. ああ
+   
 
-19. ああ
+5. 画面が遷移し、「受信トレイでメール アドレスを確認してください」と表示されます。![module03-05](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-05.BMP)
 
-20. ああ
+   
 
-21. ああ
+6. 先に開いているoutlookを表示し、メールが届いたことを確認します。さらにメールの記載内容にある「メールアドレスを確認する」をクリックします。
 
-22. ああ
+   > 注：受信までに3分ほどかかる可能性があります。
+   >
+   > 注：迷惑メールに保存される場合があります。ご確認ください。
 
-23. ああ
+   ![module03-06](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-06.BMP)
 
-24. ああ
+   
 
-25. ああ
+7. 画面が遷移し、アンケート画面が表示されます。どれを選択してもOKです。
 
-26. ああ
+   ![module03-07](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-07.BMP)
 
-27. ああ
+   
 
-28. ああ
+8. 「Dropbox をダウンロードして開始します」画面が表示されます。「後にする」をクリックします。
+
+   ![module03-08](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-08.BMP)
+
+   
+
+9. Dropboxのダッシュボードが表示されます。「管理コンソール」をクリックします。
+
+   ![module03-09](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-09.BMP)
+
+   
+
+10. 「管理コンソール」画面が表示されます。「設定」をクリックします。
+
+    ![module03-10](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-10.BMP)
 
     
 
+11. 設定画面が表示されます。「シングル サインオン」をクリックします。
 
+    ![module03-11](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-11.BMP)
 
-## タスク2 - Dropbox Businessで初期設定を行う
+    
 
-1. あああ
-2. あああ
-3. ああああ
-4. あああああ
-5. ああああ
-6. あああああ
-7. あああああ
-8. あああああ
-9. あああああああああ
-10. あ
-11. あ
-12. あ
-13. ああ
-14. ああ
-15. ああ
-16. ああ
-17. ああ
-18. ああ
-19. ああ
-20. ああ
-21. ああ
-22. ああ
-23. ああ
-24. ああ
+12. 「設定＞シングル サインオン」画面が表示されます。「SSO ログインの URL」の「リンクをコピー」をクリックし、メモ帳などに貼り付けます。
 
+    > 注：コピーしたリンクは、後の手順で使用します。
+    >
+    > 注：コピーしたリンクのサンプルです。#の数字が異なります。
+    >
+    > `https://www.dropbox.com/sso/###########`
 
+    ![module03-12](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-12.BMP)
 
-## タスク3 - Azure AD でエンタープライズアプリケーションを登録する
+    
 
-1. あああ
-2. あああ
-3. ああああ
-4. あああああ
-5. ああああ
-6. あああああ
-7. あああああ
-8. あああああ
-9. あああああああああ
-10. あ
-11. あ
-12. あ
-13. ああ
-14. ああ
-15. ああ
-16. ああ
-17. ああ
-18. ああ
-19. ああ
-20. ああ
+13. 一度、Dropboxの画面を最小化します。
 
+    
 
+## タスク2 - Azure AD でエンタープライズアプリケーションを登録する
 
-## タスク4 - エンタープライズアプリケーションでユーザーに権限を付与する
+1. 「[Azure Active Directory 管理センター](https://aad.portal.azure.com/)」へサインインします。
 
-1. あああ
-2. あああ
-3. ああああ
-4. あああああ
-5. ああああ
-6. あああああ
-7. あああああ
-8. あああああ
-9. あああああああああ
-10. あ
-11. あ
-12. あ
-13. ああ
-14. ああ
-15. ああ
-16. ああ
-17. ああ
-18. ああ
-19. ああ
-20. ああ
+   > 注:XXXXはご自身のアカウント番号を入力してください。
+   >
+   > 注:「アカウントの保護にご協力ください」と表示された場合は「今はしない」を選択してください。
 
+   | 項目                | 値                              |
+   | ------------------- | ------------------------------- |
+   | メール、電話、Skype | `admin@ctcXXXX.onmicrosoft.com` |
+   | パスワード          | Pa55w.rd1234                    |
 
+   
 
-## タスク5 - My Apps からDropbox Business にSSOを検証する
+2. 画面左ツリーの「エンタープライズアプリケーション」をクリックします。
 
-1. あああ
-2. あああ
-3. ああああ
-4. あああああ
-5. ああああ
-6. あああああ
-7. あああああ
-8. あああああ
-9. あああああああああ
-10. あ
-11. あ
-12. あ
-13. ああ
-14. ああ
-15. ああ
-16. ああ
-17. ああ
-18. ああ
-19. ああ
-20. ああ
+   ![module03-13](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-13.BMP)
 
+   
 
+3. 「エンタープライズ アプリケーション | すべてのアプリケーション」が表示されます。「+新しいアプリケーション」をクリックします。
+
+   ![module03-14](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-14.BMP)
+
+   
+
+4. 「Azure AD ギャラリーの参照」が表示されます。「アプリケーションを検索」に「Dropbox」と入力し、「Dropbox Business」をクリックします。
+
+   ![module03-15](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-15.BMP)
+
+   
+
+5. 「Dropbox Business」画面が表示されます。「作成」をクリックします。
+
+   ![module03-16](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-16.BMP)
+
+   
+
+6. 画面が遷移し「Dropbox Business | 概要」が表示されます。「ユーザーとグループ」をクリックします。
+
+   ![module03-17](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-17.BMP)
+
+   
+
+7. 「Dropbox Business | ユーザーとグループ」画面が表示されます。「+ユーザーまたはグループの追加」をクリックします。
+
+   ![module03-18](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-18.BMP)
+
+   
+
+8. 「割り当ての追加」画面が表示されます。以下のユーザーを選択し、「割り当て」をクリックします。
+
+   > 注：XXXXはご自身のアカウント番号を入力してください。
+
+   　・`admin@ctcXXXX.onmicrosoft.com`
+
+   　・Marketing
+
+   ![module03-19](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-19.BMP)
+
+   
+
+   
+
+9. 「Dropbox Business | ユーザーとグループ」で割りあてたユーザーが一覧に表示されたことを確認します。その後、「シングルサインオン」をクリックします。
+
+   ![module03-20](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-20.BMP)
+
+   
+
+10. 「Dropbox Business | シングル サインオン」画面が表示されます。「SAML」をクリックします。
+
+    ![module03-21](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-21.BMP)
+
+    
+
+    
+
+11. 「Dropbox Business | SAML ベースのサインオン」画面が表示されます。「基本的なSAML構成」の「編集」をクリックします。
+
+    ![module03-22](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-22.BMP)
+
+    
+
+    
+
+12. 「基本的な SAML 構成」が表示されます。前の演習手順でコピーしたSSO ログインの URL」を用意し、次の情報を使用して「保存」をクリックします。
+
+    > 注：指定の無い項目は、「空欄」または「デフォルト値」で結構です。
+    >
+    > 注：コピーしたリンクのサンプルです。#の数字が異なります。
+    >
+    > 　　`https://www.dropbox.com/sso/###########`
+
+    | 項目            | 値                                        |
+    | --------------- | ----------------------------------------- |
+    | 応答 URL の追加 | `https://www.dropbox.com/saml_login`      |
+    | サインオン URL  | `https://www.dropbox.com/sso/###########` |
+
+    ![module03-23](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-23.BMP)
+
+    
+
+13. 保存成功後、画面右上の「閉じる」ボタンをクリックします。
+
+    > 注：Webブラウザの「閉じる」ボタンではありません。
+
+    ![module03-24](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-24.BMP)
+
+    
+
+14. 「Dropbox BusinessでシングルサインオンをTest」と表示されます。「いいえ、後でtestします」をクリックします。
+
+    ![module03-25](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-25.BMP)
+
+    
+
+15. 「Dropbox Business | SAML ベースのサインオン」の「SAML 証明書」の項目にある「証明書 (Base64)」をダウンロードして自身のPCに保存します。
+
+    > 注：ダウンロードしたデータは後の手順で使用します。保存場所はどちらでもOKです。
+    >
+    > 注：「Dropbox Business.cer」ファイルがダウンロードされます。
+
+    ![module03-27](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-27.BMP)
+
+    
+
+16. 「Dropbox Business | SAML ベースのサインオン」の「Dropbox Business のセットアップ」にある「構成URLを展開し、「ログイン URL」の値をコピーしメモ帳などに貼り付けます。
+
+    > 注：コピーしたリンクは、後の手順で使用します。
+
+    ![module03-27](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-27.BMP)
+
+    
+
+## タスク3 - Dropbox Businessでシングルサインオンを構成する
+
+1. Dropbox Businessの「設定＞シングル サインオン」画面を表示します。
+
+   ![module03-28](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-28.BMP)
+
+   
+
+2. 次の情報を使用して「保存」をクリックします。
+
+   | 項目                                      | 値                                                           |
+   | ----------------------------------------- | ------------------------------------------------------------ |
+   | シングルサインオン                        | 任意                                                         |
+   | アイデンティティ プロバイダのログイン URL | エンタープライズアプリケーションの設定でコピーした「ログイン URL」 |
+   | X.509 証明書                              | エンタープライズアプリケーションの設定でダウンロードした「Dropbox Business.cer」 |
+
+   ![module03-30](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-29.BMP)
+
+   
+
+   
+
+## タスク4 - My Apps からDropbox Business にSSOを検証する
+
+1. 「[My Apps](https://myapplications.microsoft.com/)」へサインインします。
+
+   > 注:XXXXはご自身のアカウント番号を入力してください。
+   >
+   > 注:「アカウントの保護にご協力ください」と表示された場合は「今はしない」を選択してください。
+
+   | 項目                | 値                              |
+   | ------------------- | ------------------------------- |
+   | メール、電話、Skype | `admin@ctcXXXX.onmicrosoft.com` |
+   | パスワード          | Pa55w.rd1234                    |
+
+   
+
+2. 「マイアプリ」画面が表示されます。「Dropbox Business」をクリックします。
+
+   ![module03-30](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-30.BMP)
+
+   
+
+3. サインイン画面に遷移します。そのままサインインします。
+
+   > 注：正常に動作する場合、パスワード入力せずにサインインが行われます。
+
+   
+
+4. Dropboxのトップページが表示されます。
+
+   ![module03-31](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-31.BMP)
+
+   
+
+   
 
 Module3 Lab は以上です。お疲れ様でした。
+
+
+
