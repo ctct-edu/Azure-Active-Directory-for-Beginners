@@ -2,20 +2,36 @@
 lab:
     title: '4 - Azure AD で SMS を使用した MFA を実装する'
     learning path: '4'
-    module: 'モジュール 3 - Azure AD で SMS を使用した MFA を実装する'
+    module: 'モジュール 4 - Azure AD で SMS を使用した MFA を実装する'
 ---
 
 # ラボ 4: Azure AD で SMS を使用した MFA を実装する
 
 ## ラボ シナリオ
 
-あなたの会社でユーザーアカウントのセキュリティ向上のため、SMSを使用したMFAを実装します。
+このラボでは以下のタスクを実施していただきます。
+
+　**タスク1 - 多要素認証の設定を確認する**
+
+　**タスク2 - MFAの条件付きアクセスのルールを設定する**
+
+　**タスク3 - MFAに必要な電話番号をユーザープロファイルに登録する**
+
+　**タスク4 - Office 365 にアクセスし、MFAを検証する**
+
+> 注：このタスクでは、ご自身の電話番号が必要となります。会社用/プライベート用どちらでも結構です。
 
 
 
 #### 推定時間: 20分
 
 ## タスク1 - 多要素認証の設定を確認する
+
+このタスクでは、多要素認証のサービスを確認します。設定はデフォルトのまま使用するため、変更はありません。
+
+過去に見たことがある方は、スキップしても構いません。
+
+
 
 1. 「[Azure Active Directory 管理センター](https://aad.portal.azure.com/)」へサインインします。
 
@@ -32,47 +48,51 @@ lab:
 
 2. 画面左ツリーの「すべてのサービス」をクリックします。
 
-   ![module04-01](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-01.BMP)
+   ![module04-01](./media/module04-01.BMP)
 
    
 
 3. 「すべてのサービス」画面が表示されます。「セキュリティ」をクリックし、さらに「多要素認証」をクリックします。
 
-   ![module04-02](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-02.BMP)
+   ![module04-02](./media/module04-02.BMP)
 
    
 
 4. 「多要素認証 | はじめに」画面が表示されます。「クラウドベースの多要素認証の追加設定」をクリックします。
 
-   ![module04-03](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-03.BMP)
+   ![module04-03](./media/module04-03.BMP)
 
    
 
 5. 別タブが開き「多要素認証」画面が表示されます。設定できる項目を確認し、タブを閉じます。
 
-   > 注：ここでは設定変更は行いません。設定できる項目を見ていただきました。
+   > 注：ここでは設定変更は行いません。設定できる項目を見ていただきます。
 
-   ![module04-04](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-04.BMP)
+   ![module04-04](./media/module04-04.BMP)
 
    
 
 6. 画面左上の「Azure Active Directory 管理センター」というロゴをクリックし、ダッシュボード画面に戻ります。
 
-   ![module04-05](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-05.BMP)
+   ![module04-05](./media/module04-05.BMP)
 
    
 
 ## タスク2 - MFAの条件付きアクセスのルールを設定する
 
+このタスクでは、条件付きアクセスを用いてOffice365にサインインする特定のユーザーへMFAを設定します。
+
+
+
 1. 画面左ツリーの「Azure Active Directory」をクリックし、さらに「セキュリティ」をクリックします。
 
-   ![module04-06](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-06.BMP)
+   ![module04-06](./media/module04-06.BMP)
 
    
 
 2. 「セキュリティ | はじめに」画面が表示されます。画面左ツリーの「条件付きアクセス」をクリックします。
 
-   ![module04-07](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-07.BMP)
+   ![module04-07](./media/module04-07.BMP)
 
    
 
@@ -80,7 +100,7 @@ lab:
 
 3. 「条件付きアクセス | ポリシー」画面が表示されます。「+新しいポリシー」をクリックします。
 
-   ![module04-08](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-08.BMP)
+   ![module04-08](./media/module04-08.BMP)
 
    
 
@@ -88,13 +108,13 @@ lab:
 
 4. 「新規」画面が表示されます。
 
-   ![module04-09](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-09.BMP)
+   ![module04-09](./media/module04-09.BMP)
 
    
 
 5. 名前に「Offce365_MFA」と入力します。
 
-   ![module04-13](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-13.BMP)
+   ![module04-13](./media/module04-13.BMP)
 
    
 
@@ -107,7 +127,7 @@ lab:
    | -                                  | ユーザーとグループにチェック |
    | 選択                               | Miriam Graham                |
 
-   ![module04-10](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-10.BMP)
+   ![module04-10](./media/module04-10.BMP)
 
    
 
@@ -119,7 +139,7 @@ lab:
    | 対象                                   | アプリを選択    |
    | 選択                                   | Office 365      |
 
-   ![module04-11](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-11.BMP)
+   ![module04-11](./media/module04-11.BMP)
 
    
 
@@ -129,19 +149,19 @@ lab:
    | -------------------- | ---------------- |
    | 多要素認証を要求する | チェックを入れる |
 
-   ![module04-12](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-12.BMP)
+   ![module04-12](./media/module04-12.BMP)
 
    
 
 9. 「レポートの有効化」を「オン」に変更し、「作成」をクリックします。
 
-   ![module04-14](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-14.BMP)
+   ![module04-14](./media/module04-14.BMP)
 
    
 
 10. 「条件付きアクセス | ポリシー」画面に遷移します。作成したポリシーが一覧に表示されたことを確認してください。
 
-    ![module04-15](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-15.BMP)
+    ![module04-15](./media/module04-15.BMP)
 
     
 
@@ -149,17 +169,21 @@ lab:
 
 ## タスク3 - MFAに必要な電話番号をユーザープロファイルに登録する
 
+このタスクでは、対象となるユーザーの電話番号を事前に登録します。登録された電話番号を用いてMFAを使用します。
+
+
+
 1. 画面左ツリーの「Azure Active Directory」をクリックし、さらに「ユーザー」をクリックします。
 
 2. 「ユーザー」画面が表示されます。「Miriam Graham」をクリックします。
 
-   ![module04-16](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-16.BMP)
+   ![module04-16](./media/module04-16.BMP)
 
    
 
 3. 画面左ツリーの「認証方法」をクリックします。
 
-4. ![module04-17](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-17.BMP)
+4. ![module04-17](./media/module04-17.BMP)
 
    
 
@@ -169,13 +193,17 @@ lab:
    >
    > 注：この後の演習でSMSを受信するために使用します。
 
-   ![module04-18](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-18.BMP)
+   ![module04-18](./media/module04-18.BMP)
 
    
 
    
 
 ## タスク4 - Office 365 にアクセスし、MFAを検証する
+
+このタスクでは、条件付きアクセスが正しく設定され、MFAができるか確認します。
+
+
 
 1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
@@ -214,13 +242,13 @@ lab:
 
 4. パスワード認証後に「ID を確認する」画面が表示されます。「SMSを送信」をクリックします。
 
-   ![module04-19](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-19.BMP)
+   ![module04-19](./media/module04-19.BMP)
 
    
 
 5. 登録した携帯電話に届いたSMSの番号を入力します。
 
-   ![module04-20](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-20.BMP)
+   ![module04-20](./media/module04-20.BMP)
 
    
 
@@ -234,7 +262,7 @@ lab:
 
 7. Office 365にサインインできました。
 
-   ![module04-21](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module04-21.BMP)
+   ![module04-21](./media/module04-21.BMP)
 
    
 

@@ -9,15 +9,31 @@ lab:
 
 ## ラボ シナリオ
 
-あなたの会社ではDropbox Business を導入しました。
+このラボでは以下のタスクを実施していただきます。
 
-Azure ADで管理しているユーザーとDropbox 間でシングルサインオンを構築します。
+　**タスク1 - Dropbox Businessを利用登録する**
+
+　**タスク2 - Azure AD でエンタープライズアプリケーションを登録する**
+
+　**タスク3 - Dropbox Businessでシングルサインオンを構成する**
+
+　**タスク4 - My Apps からDropbox Business にSSOを検証する**
+
+> 参考：本ラボで「Dropbox Business」を採用した理由
+>
+> 　　　様々なクラウドアプリは無料版や試用版でも「クレジットカード」の登録が必要になります。
+>
+> 　　　「Dropbox Business」の試用版はクレジットカード登録不要で利用できるため、採用しています。
 
 
 
 #### 推定時間: 60分
 
 ## タスク1 - Dropbox Businessを利用登録する
+
+このタスクでは、「Dropbox Business」の利用登録を行います。登録にはメールアドレスが必要のため、Outlookを使用します。
+
+
 
 1. 「[Outlook.com](https://outlook.live.com/owa/)」へサインインします。
 
@@ -30,7 +46,7 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
    | メール、電話、Skype | `admin@ctcXXXX.onmicrosoft.com` |
    | パスワード          | Pa55w.rd1234                    |
 
-   ![module03-01](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-01.BMP)
+   ![module03-01](./media/module03-01.BMP)
 
    
 
@@ -38,13 +54,19 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
 
    > 注：後の手順で使用します。
 
-   ![module03-02](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-02.BMP)
+   ![module03-02](./media/module03-02.BMP)
 
    
 
 3. 新しいWebブラウザのウィンドウを開き、「[Dropbox Advanced 無料トライアル](https://www.dropbox.com/business/try?sku=adv)」のページにアクセスします。
 
-   ![module03-03](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-03.BMP)
+   > 参考：今回はSSOをするためAdvancedの無料試用版を用意しています。
+   >
+   > 　　　Dropboxには様々なプランがあります。利用申し込みページは以下になります。
+   >
+   > 　　　https://www.dropbox.com/business/plans-comparison
+
+   ![module03-03](./media/module03-03.BMP)
 
    
 
@@ -62,13 +84,13 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
    | パスワード     | Pa55w.rd1234                    |
    | チーム名       | ctcXXXX                         |
 
-   ![module03-04](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-04.BMP)
+   ![module03-04](./media/module03-04.BMP)
 
    
 
    
 
-5. 画面が遷移し、「受信トレイでメール アドレスを確認してください」と表示されます。![module03-05](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-05.BMP)
+5. 画面が遷移し、「受信トレイでメール アドレスを確認してください」と表示されます。![module03-05](./media/module03-05.BMP)
 
    
 
@@ -78,37 +100,37 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
    >
    > 注：迷惑メールに保存される場合があります。ご確認ください。
 
-   ![module03-06](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-06.BMP)
+   ![module03-06](./media/module03-06.BMP)
 
    
 
 7. 画面が遷移し、アンケート画面が表示されます。どれを選択してもOKです。
 
-   ![module03-07](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-07.BMP)
+   ![module03-07](./media/module03-07.BMP)
 
    
 
 8. 「Dropbox をダウンロードして開始します」画面が表示されます。「後にする」をクリックします。
 
-   ![module03-08](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-08.BMP)
+   ![module03-08](./media/module03-08.BMP)
 
    
 
 9. Dropboxのダッシュボードが表示されます。「管理コンソール」をクリックします。
 
-   ![module03-09](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-09.BMP)
+   ![module03-09](./media/module03-09.BMP)
 
    
 
 10. 「管理コンソール」画面が表示されます。「設定」をクリックします。
 
-    ![module03-10](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-10.BMP)
+    ![module03-10](./media/module03-10.BMP)
 
     
 
 11. 設定画面が表示されます。「シングル サインオン」をクリックします。
 
-    ![module03-11](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-11.BMP)
+    ![module03-11](./media/module03-11.BMP)
 
     
 
@@ -120,7 +142,7 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
     >
     > `https://www.dropbox.com/sso/###########`
 
-    ![module03-12](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-12.BMP)
+    ![module03-12](./media/module03-12.BMP)
 
     
 
@@ -129,6 +151,12 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
     
 
 ## タスク2 - Azure AD でエンタープライズアプリケーションを登録する
+
+このタスクでは、エンタープライズアプリケーションにDropbox Business を登録します。
+
+登録することにより、SSOの構成を設定することができます。
+
+
 
 1. 「[Azure Active Directory 管理センター](https://aad.portal.azure.com/)」へサインインします。
 
@@ -145,37 +173,37 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
 
 2. 画面左ツリーの「エンタープライズアプリケーション」をクリックします。
 
-   ![module03-13](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-13.BMP)
+   ![module03-13](./media/module03-13.BMP)
 
    
 
 3. 「エンタープライズ アプリケーション | すべてのアプリケーション」が表示されます。「+新しいアプリケーション」をクリックします。
 
-   ![module03-14](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-14.BMP)
+   ![module03-14](./media/module03-14.BMP)
 
    
 
 4. 「Azure AD ギャラリーの参照」が表示されます。「アプリケーションを検索」に「Dropbox」と入力し、「Dropbox Business」をクリックします。
 
-   ![module03-15](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-15.BMP)
+   ![module03-15](./media/module03-15.BMP)
 
    
 
 5. 「Dropbox Business」画面が表示されます。「作成」をクリックします。
 
-   ![module03-16](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-16.BMP)
+   ![module03-16](./media/module03-16.BMP)
 
    
 
 6. 画面が遷移し「Dropbox Business | 概要」が表示されます。「ユーザーとグループ」をクリックします。
 
-   ![module03-17](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-17.BMP)
+   ![module03-17](./media/module03-17.BMP)
 
    
 
 7. 「Dropbox Business | ユーザーとグループ」画面が表示されます。「+ユーザーまたはグループの追加」をクリックします。
 
-   ![module03-18](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-18.BMP)
+   ![module03-18](./media/module03-18.BMP)
 
    
 
@@ -187,7 +215,7 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
 
    　・Marketing
 
-   ![module03-19](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-19.BMP)
+   ![module03-19](./media/module03-19.BMP)
 
    
 
@@ -195,13 +223,13 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
 
 9. 「Dropbox Business | ユーザーとグループ」で割りあてたユーザーが一覧に表示されたことを確認します。その後、「シングルサインオン」をクリックします。
 
-   ![module03-20](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-20.BMP)
+   ![module03-20](./media/module03-20.BMP)
 
    
 
 10. 「Dropbox Business | シングル サインオン」画面が表示されます。「SAML」をクリックします。
 
-    ![module03-21](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-21.BMP)
+    ![module03-21](./media/module03-21.BMP)
 
     
 
@@ -209,7 +237,7 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
 
 11. 「Dropbox Business | SAML ベースのサインオン」画面が表示されます。「基本的なSAML構成」の「編集」をクリックします。
 
-    ![module03-22](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-22.BMP)
+    ![module03-22](./media/module03-22.BMP)
 
     
 
@@ -228,7 +256,7 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
     | 応答 URL の追加 | `https://www.dropbox.com/saml_login`      |
     | サインオン URL  | `https://www.dropbox.com/sso/###########` |
 
-    ![module03-23](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-23.BMP)
+    ![module03-23](./media/module03-23.BMP)
 
     
 
@@ -236,13 +264,13 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
 
     > 注：Webブラウザの「閉じる」ボタンではありません。
 
-    ![module03-24](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-24.BMP)
+    ![module03-24](./media/module03-24.BMP)
 
     
 
 14. 「Dropbox BusinessでシングルサインオンをTest」と表示されます。「いいえ、後でtestします」をクリックします。
 
-    ![module03-25](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-25.BMP)
+    ![module03-25](./media/module03-25.BMP)
 
     
 
@@ -252,7 +280,7 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
     >
     > 注：「Dropbox Business.cer」ファイルがダウンロードされます。
 
-    ![module03-27](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-27.BMP)
+    ![module03-27](./media/module03-27.BMP)
 
     
 
@@ -260,15 +288,19 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
 
     > 注：コピーしたリンクは、後の手順で使用します。
 
-    ![module03-27](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-27.BMP)
+    ![module03-27](./media/module03-27.BMP)
 
     
 
 ## タスク3 - Dropbox Businessでシングルサインオンを構成する
 
+このタスクでは、AzureAD のエンタープライズアプリケーション側で出力した情報を、Dropbox Business側でも設定し連携します。
+
+
+
 1. Dropbox Businessの「設定＞シングル サインオン」画面を表示します。
 
-   ![module03-28](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-28.BMP)
+   ![module03-28](./media/module03-28.BMP)
 
    
 
@@ -280,13 +312,19 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
    | アイデンティティ プロバイダのログイン URL | エンタープライズアプリケーションの設定でコピーした「ログイン URL」 |
    | X.509 証明書                              | エンタープライズアプリケーションの設定でダウンロードした「Dropbox Business.cer」 |
 
-   ![module03-30](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-29.BMP)
+   ![module03-30](./media/module03-29.BMP)
 
    
 
    
 
 ## タスク4 - My Apps からDropbox Business にSSOを検証する
+
+このタスクでは、エンタープライズアプリケーションに登録されたアプリを「My Apps」からアクセスします。
+
+アクセスする際にパスワード認証なしでDropbox Businessを利用することができます。
+
+
 
 1. 「[My Apps](https://myapplications.microsoft.com/)」へサインインします。
 
@@ -303,7 +341,7 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
 
 2. 「マイアプリ」画面が表示されます。「Dropbox Business」をクリックします。
 
-   ![module03-30](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-30.BMP)
+   ![module03-30](./media/module03-30.BMP)
 
    
 
@@ -315,7 +353,7 @@ Azure ADで管理しているユーザーとDropbox 間でシングルサイン�
 
 4. Dropboxのトップページが表示されます。
 
-   ![module03-31](C:\Users\otokita\Documents\Azure-Active-Directory-for-Beginners\media\module03-31.BMP)
+   ![module03-31](./media/module03-31.BMP)
 
    
 

@@ -9,13 +9,29 @@ lab:
 
 ## ラボ シナリオ
 
-今後のラボを完了する準備をするには、新しい Azure サブスクリプションを作成し、Azure AD P2 ライセンスを要求する必要があります。
+ラボを行うために、事前準備が必要になります。概要は以下の通りです。
+
+　**準備 1 - Microsoftアカウントの作成とOffice365(E3)試用版のアクティブ化**
+
+　**準備 2 - Azure Active Directory Premium P2 試用版ライセンスを追加**
+
+　**準備 3 - セキュリティの既定値を無効化する**
+
+
 
 #### 推定時間: 20分
 
 ## 準備 1 - Microsoftアカウントの作成とOffice365(E3)試用版のアクティブ化
 
+このラボは「Office365 E3 試用版」を使い、ユーザーへライセンス付与を操作していただきます。
+
+これから演習に必要なアクティベート作業を実施してください。
+
+
+
 1. [[Office 365 E3の試用版](https://go.microsoft.com/fwlink/p/?LinkID=403802&clcid=0x411&culture=ja-jp&country=JP )]へアクセスします。
+
+   
 
 2. 「始めましょう」と画面に表示されます。講師よりチャットまたはPDFで送付された`ctcXXXX@outlook.jp`を入力します。
 
@@ -126,6 +142,12 @@ lab:
 
 ## 準備 2 - Azure Active Directory Premium P2 試用版ライセンスを追加
 
+このラボは「Azure Active Directory Premium P2 試用版」を使い、Azure Active Directoryに関する様々な機能を操作していただきます。
+
+これから演習に必要なアクティベート作業を実施してください。
+
+
+
 1. 「Microsoft365 管理センター」画面の左ツリーにある「すべてを表示」をクリックします。
 
    ![module00-14](./media/module00-14.BMP)
@@ -214,24 +236,29 @@ lab:
 
      ![module00-26](./media/module00-26.BMP)
 
-
 ## 準備 3 - セキュリティの既定値を無効化する
+
+このラボでは「条件付きアクセス」の機能を操作していただきます。
+
+そこで「セキュリティの規定値を無効化」する必要があります。
+
+
 
 1. 画面左上ツリーにある「Azure Active Directory」をクリックします。
 
-   ![module00-28](/media/module00-28.BMP)
+   ![module00-28](./media/module00-28.BMP)
 
    
 
 2. 画面左上ツリーにある「プロパティ」をクリックします。
 
-   ![module00-29](/media/module00-29.BMP)
+   ![module00-29](./media/module00-29.BMP)
 
    
 
 3. 「ctc0924 | プロパティ」画面が表示されます。画面を一番下までスクロールし、「セキュリティの既定値の管理」をクリックします。
 
-   ![module00-30](/media/module00-30.BMP)
+   ![module00-30](./media/module00-30.BMP)
 
    
 
@@ -242,13 +269,13 @@ lab:
    | セキュリティの規定値の有効化       | いいえ                                       |
    | 品質向上のため....お聞かせください | 自分の組織では条件付きアクセスを使用している |
 
-   ![module00-30](/media/module00-31.BMP)
+   ![module00-30](./media/module00-31.BMP)
 
    
 
 5. 画面左上の「Azure Active Directory 管理センター」というロゴをクリックし、ダッシュボード画面に戻ります。
 
-   ![module00-27](/media/module00-27.BMP)
+   ![module00-27](./media/module00-27.BMP)
 
    
 
