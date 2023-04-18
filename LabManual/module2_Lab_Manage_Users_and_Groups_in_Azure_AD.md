@@ -1,8 +1,8 @@
 ---
 lab:
-    title: '3 - Azure AD と クラウドアプリで SSO を実装する'
-    learning path: '3'
-    module: 'モジュール 3 - Azure AD と クラウドアプリで SSO を実装する'
+    title: '3 - ユーザーやグループの管理'
+    learning path: '2'
+    module: 'ユーザーやグループの管理'
 ---
 
 # ラボ 2: ユーザーやグループの管理
