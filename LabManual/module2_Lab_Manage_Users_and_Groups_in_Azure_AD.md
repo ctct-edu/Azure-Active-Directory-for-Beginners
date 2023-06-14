@@ -153,7 +153,7 @@ lab:
 
    
 
-2. Chris Green として、「https://www.office.com」へアクセスします。
+2. Chris Green として、https://www.office.com へアクセスします。
 
    > 注:XXXXはご自身のアカウント番号を入力してください。
 
@@ -198,7 +198,7 @@ lab:
 
 
 
-1. 「https://entra.microsoft.com/」へサインインします。
+1.  https://entra.microsoft.com/ へアクセスします。
 
    > 注：XXXXはご自身のアカウント番号を入力してください。
    >
@@ -266,7 +266,7 @@ lab:
 
 
 
-1. 「https://entra.microsoft.com/」へサインインします。
+1.  https://entra.microsoft.com/ へアクセスします。
 
    > 注：XXXXはご自身のアカウント番号を入力してください。
    >
@@ -317,7 +317,7 @@ lab:
 
 8. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-9. Alex Wilber として、「https://entra.microsoft.com/」へサインインします。
+9. Alex Wilber として、 https://entra.microsoft.com/ へアクセスします。
 
    > 注:XXXXはご自身のアカウント番号を入力してください。
 
@@ -399,7 +399,7 @@ lab:
 
 
 
-1. 「https://entra.microsoft.com/」へサインインします。
+1.  https://entra.microsoft.com/ へアクセスします。
 
    > 注:XXXXはご自身のアカウント番号を入力してください。
    >
@@ -572,7 +572,7 @@ lab:
 
     > 参考：ライセンス付与の設定は以上になります。ご興味ある方は、ライセンス付与されたユーザーで
     >
-    > 　　　InPrivate ブラウザー ウィンドウhttps://www.office.com/  サインインし、Office365が使用できるか確認できます。
+    > 　　　InPrivate ブラウザー ウィンドウを使い https://www.office.com へアクセスし、Office365が使用できるか確認できます。
     >
     > ![module02-45](./media/module02-45.BMP)
 
@@ -586,7 +586,7 @@ lab:
 
 
 
-1. 「https://entra.microsoft.com/」へサインインします。
+1.  https://entra.microsoft.com/ へアクセスします。
 
    > 注：XXXXはご自身のアカウント番号を入力してください。
    >

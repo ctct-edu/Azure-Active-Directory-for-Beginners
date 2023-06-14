@@ -33,7 +33,7 @@ lab:
 
 
 
-1. 「https://entra.microsoft.com/」へサインインします。
+1.  https://entra.microsoft.com/ へアクセスします。
 
    > 注:XXXXはご自身のアカウント番号を入力してください。
    >
@@ -203,7 +203,7 @@ lab:
    >
    > 　 Mozilla Fire Foxでは「プライベート」ウィンドウ
 
-2. Miriam Graham として、「https://www.office.com」へアクセスします。
+2. Miriam Graham として、https://www.office.com へアクセスします。
 
    > 注:XXXXはご自身のアカウント番号を入力してください。
 

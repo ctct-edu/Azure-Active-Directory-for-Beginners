@@ -35,7 +35,7 @@ lab:
 
 
 
-1. 「https://outlook.live.com/owa/」へサインインします。
+1. https://outlook.live.com/owa/ へサインインします。
 
    > 注:XXXXはご自身のアカウント番号を入力してください。
    >
@@ -58,7 +58,7 @@ lab:
 
    
 
-3. 新しいWebブラウザのウィンドウを開き、「https://www.dropbox.com/business/try?sku=adv」のページにアクセスします。
+3. 新しいWebブラウザのウィンドウを開き、https://www.dropbox.com/business/try?sku=adv のページにアクセスします。
 
    > 参考：今回はSSOをするためAdvancedの無料試用版を用意しています。
    >
@@ -161,7 +161,7 @@ lab:
 
 
 
-1. 「https://entra.microsoft.com/」へサインインします。
+1.  https://entra.microsoft.com/ へアクセスします。
 
    > 注:XXXXはご自身のアカウント番号を入力してください。
    >
@@ -327,7 +327,7 @@ lab:
 
 
 
-1. 「[My Apps](https://myapplications.microsoft.com/)」へサインインします。
+1. https://myapplications.microsoft.com/ へサインインします。
 
    > 注:XXXXはご自身のアカウント番号を入力してください。
    >
