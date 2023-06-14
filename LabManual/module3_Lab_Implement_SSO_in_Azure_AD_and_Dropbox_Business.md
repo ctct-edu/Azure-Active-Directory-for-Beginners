@@ -35,7 +35,7 @@ lab:
 
 
 
-1. 「[Outlook.com](https://outlook.live.com/owa/)」へサインインします。
+1. 「https://outlook.live.com/owa/」へサインインします。
 
    > 注:XXXXはご自身のアカウント番号を入力してください。
    >
@@ -58,7 +58,7 @@ lab:
 
    
 
-3. 新しいWebブラウザのウィンドウを開き、「[Dropbox Advanced 無料トライアル](https://www.dropbox.com/business/try?sku=adv)」のページにアクセスします。
+3. 新しいWebブラウザのウィンドウを開き、「https://www.dropbox.com/business/try?sku=adv」のページにアクセスします。
 
    > 参考：今回はSSOをするためAdvancedの無料試用版を用意しています。
    >
@@ -70,19 +70,22 @@ lab:
 
    
 
+   
+
 4. 次の情報を使用して「無料トライアル版の利用を開始」をクリックします。
 
    > 注：XXXXはご自身のアカウント番号を入力してください。
    >
    > 注：指定の無い項目は、「空欄」または「デフォルト値」で結構です。
 
-   | 項目           | 値                              |
-   | -------------- | ------------------------------- |
-   | 名前           | XXXX                            |
-   | 姓             | ctc                             |
-   | メールアドレス | `admin@ctcXXXX.onmicrosoft.com` |
-   | パスワード     | Pa55w.rd1234                    |
-   | チーム名       | ctcXXXX                         |
+   | 項目                                 | 値                              |
+   | ------------------------------------ | ------------------------------- |
+   | トライアル版のプランをお選びください | Advanced                        |
+   | 名前                                 | XXXX                            |
+   | 姓                                   | ctc                             |
+   | メールアドレス                       | `admin@ctcXXXX.onmicrosoft.com` |
+   | パスワード                           | Pa55w.rd1234                    |
+   | チーム名                             | ctcXXXX                         |
 
    ![module03-04](./media/module03-04.BMP)
 
@@ -158,7 +161,7 @@ lab:
 
 
 
-1. 「[Azure Active Directory 管理センター](https://aad.portal.azure.com/)」へサインインします。
+1. 「https://entra.microsoft.com/」へサインインします。
 
    > 注:XXXXはご自身のアカウント番号を入力してください。
    >
@@ -171,7 +174,7 @@ lab:
 
    
 
-2. 画面左ツリーの「エンタープライズアプリケーション」をクリックします。
+2. 画面左ツリーの「Azure Active Directory」→「アプリケーション」→「エンタープライズ アプリケーション」の順にクリックします。
 
    ![module03-13](./media/module03-13.BMP)
 
@@ -212,8 +215,6 @@ lab:
    > 注：XXXXはご自身のアカウント番号を入力してください。
 
    　・`admin@ctcXXXX.onmicrosoft.com`
-
-   　・Marketing
 
    ![module03-19](./media/module03-19.BMP)
 

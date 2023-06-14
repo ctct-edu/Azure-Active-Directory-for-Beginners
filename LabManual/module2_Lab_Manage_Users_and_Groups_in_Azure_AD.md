@@ -38,7 +38,7 @@ lab:
 >
 > 　　　　　**なお、作成したユーザーは、この後に続く演習で使用します。**
 
-1. 「[Azure Active Directory 管理センター](https://aad.portal.azure.com/)」へサインインします。
+1. 「https://entra.microsoft.com/」へサインインします。
 
    > 注:XXXXはご自身のアカウント番号を入力してください。
    >
@@ -51,7 +51,7 @@ lab:
 
    
 
-2. 画面左ツリーの「Azure Active Directory」をクリックし、さらに「ユーザー」をクリックします。
+2. 
 
    ![module02-01](./media/module02-01.BMP)
 
@@ -153,7 +153,7 @@ lab:
 
    
 
-2. Chris Green として、[Offcie365](https://www.office.com)へアクセスします。
+2. Chris Green として、「https://www.office.com」へアクセスします。
 
    > 注:XXXXはご自身のアカウント番号を入力してください。
 
@@ -198,7 +198,7 @@ lab:
 
 
 
-1. 「[Azure Active Directory 管理センター](https://aad.portal.azure.com/)」へサインインします。
+1. 「https://entra.microsoft.com/」へサインインします。
 
    > 注：XXXXはご自身のアカウント番号を入力してください。
    >
@@ -209,7 +209,7 @@ lab:
    | メール、電話、Skype | `admin@ctcXXXX.onmicrosoft.com` |
    | パスワード          | Pa55w.rd1234                    |
 
-2. 画面左ツリーの「Azure Active Directory」をクリックし、さらに「グループ」をクリックします。
+2. 画面左ツリーの「Azure Active Directory」→「グループ」→「すべてのグループ」の順にクリックします。
 
    ![module02-07](./media/module02-07.BMP)
 
@@ -237,6 +237,8 @@ lab:
 
 5. 「グループ」画面に戻ります。画面中央の「更新」をクリックし、作成したグループが一覧上に表示されたことを確認します。
 
+   > 注：既にctcXXXXというグループが存在している場合があります。デフォルトで作成されているグループのため、削除する必要はありません。
+
    ![module02-10](./media/module02-10.BMP)
 
    
@@ -245,10 +247,10 @@ lab:
 
    > 注：指定の無い項目は、「空欄」または「デフォルト値」で結構です。
 
-   | グループの種類 | グループ名 | メンバー                     |
-   | -------------- | ---------- | ---------------------------- |
-   | セキュリティ   | ITService  | Alex Wilber                  |
-   | Microsoft 365  | AppDev     | Chris Green<br />Alex Wilber |
+   | グループの種類 | グループ名                                    | メンバー                     |
+   | -------------- | --------------------------------------------- | ---------------------------- |
+   | セキュリティ   | ITService                                     | Alex Wilber                  |
+   | Microsoft 365  | AppDev<br />(グループのメール アドレスも同じ) | Chris Green<br />Alex Wilber |
 
    ![module02-11](./media/module02-11.BMP)
 
@@ -264,7 +266,7 @@ lab:
 
 
 
-1. 「[Azure Active Directory 管理センター](https://aad.portal.azure.com/)」へサインインします。
+1. 「https://entra.microsoft.com/」へサインインします。
 
    > 注：XXXXはご自身のアカウント番号を入力してください。
    >
@@ -277,7 +279,7 @@ lab:
 
    
 
-2. 画面左ツリーの「Azure Active Directory」をクリックし、さらに「ユーザー」をクリックします。
+2. 画面左ツリーの
 
    
 
@@ -315,9 +317,7 @@ lab:
 
 8. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-   
-
-9. Alex Wilber として、「[Azure Active Directory 管理センター](https://aad.portal.azure.com/)」へサインインします。
+9. Alex Wilber として、「https://entra.microsoft.com/」へサインインします。
 
    > 注:XXXXはご自身のアカウント番号を入力してください。
 
@@ -344,7 +344,7 @@ lab:
 
     
 
-12. 画面左ツリーの「Azure Active Directory」をクリックし、さらに「ユーザー」をクリックします。
+12. 画面左ツリーの「Azure Active Directory」→「ユーザー」→「すべてのユーザー」の順でクリックします。
 
     ![module02-17](./media/module02-17.BMP)
 
@@ -387,7 +387,7 @@ lab:
 
 16. 画面右上のユーザーアイコンをクリックし、「サインアウト」をクリックしてください。
 
-    ![module02-21](./media/module02-21.BMP)
+    ![](./media/module02-21.BMP)
 
     
 
@@ -399,7 +399,7 @@ lab:
 
 
 
-1. 「[Azure Active Directory 管理センター](https://aad.portal.azure.com/)」へサインインします。
+1. 「https://entra.microsoft.com/」へサインインします。
 
    > 注:XXXXはご自身のアカウント番号を入力してください。
    >
@@ -434,9 +434,11 @@ lab:
 
    
 
-6. 「ライセンス割り当ての更新」画面が表示されます。「Office365 E3」のチェックボックスにチェックを入れます。チェック後に「保存」をクリックします。
+6. 「ライセンス割り当ての更新」画面が表示されます。「Office365 E3」または「Office365 E5」のチェックボックスにチェックを入れます。チェック後に「保存」をクリックします。
 
    > 注：チェックを入れると使用できるアプリに全てチェックが入ります。
+   >
+   > 注：キャプチャとは表示されているライセンスの選択が異なります。
 
    ![module02-25](./media/module02-25.BMP)
 
@@ -447,6 +449,8 @@ lab:
    > 注：失敗した原因はMiriam Grahamのプロフィールで「利用場所」が設定されていないためです。
 
    ![module02-26](./media/module02-26.BMP)
+
+   
 
    
 
@@ -496,13 +500,15 @@ lab:
 
     
 
-15. 「Miriam Graham | ライセンス」画面で、一覧上に「Office 365 E3」が表示されたことを確認します。
+    
+
+15. 「Miriam Graham | ライセンス」画面で、一覧上に「Office 365 E3」または「Office 365 E5」が表示されたことを確認します。
 
     ![module02-35](./media/module02-35.BMP)
 
     
 
-16. 画面左ツリーの「Azure Active Directory」をクリックし、さらに「グループ」をクリックします。
+16. 画面左ツリーの「Azure Active Directory」→「グループ」→「すべてのグループ」の順にクリックします。
 
     > 注：ここからは、グループに対してのライセンス付与の手順に移ります。
 
@@ -580,7 +586,7 @@ lab:
 
 
 
-1. 「[Azure Active Directory 管理センター](https://aad.portal.azure.com/)」へサインインします。
+1. 「https://entra.microsoft.com/」へサインインします。
 
    > 注：XXXXはご自身のアカウント番号を入力してください。
    >
@@ -593,7 +599,7 @@ lab:
 
    
 
-2. 画面左ツリーの「Azure Active Directory」をクリックし、さらに「ユーザー」をクリックします。
+2. 画面左ツリーの「Azure Active Directory」→「ユーザー」→「すべてのユーザー」の順でクリックします。
 
    
 
