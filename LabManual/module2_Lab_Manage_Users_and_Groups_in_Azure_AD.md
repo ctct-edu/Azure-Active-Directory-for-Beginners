@@ -38,7 +38,7 @@ lab:
 >
 > 　　　　　**なお、作成したユーザーは、この後に続く演習で使用します。**
 
-1. 「https://entra.microsoft.com/」へサインインします。
+1. https://entra.microsoft.com/ へアクセスします。
 
    > 注:XXXXはご自身のアカウント番号を入力してください。
    >
