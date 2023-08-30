@@ -1,10 +1,3 @@
----
-lab:
-    title: '4 - Azure AD で SMS を使用した MFA を実装する'
-    learning path: '4'
-    module: 'モジュール 4 - Azure AD で SMS を使用した MFA を実装する'
----
-
 # ラボ：03 - Azure AD で SMS を使用した MFA を実装する
 
 ## ラボ シナリオ
