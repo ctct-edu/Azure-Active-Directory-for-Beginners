@@ -1,10 +1,3 @@
----
-lab:
-    title: '3 - Azure AD と クラウドアプリで SSO を実装する'
-    learning path: '3'
-    module: 'モジュール 3 - Azure AD と クラウドアプリで SSO を実装する'
----
-
 # ラボ：02 - クラウドアプリで SSO を実装する
 
 ## ラボ シナリオ
