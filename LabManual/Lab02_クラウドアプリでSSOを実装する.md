@@ -64,7 +64,7 @@
 
    ![module03-05](./media/module03-05.BMP)
 
-4. Webブラウザを使用しhttps://www.dropbox.com/にアクセスします。
+4. Webブラウザを使用し、https://www.dropbox.com/  にアクセスします。
 
 5. サインイン画面が表示された場合、以下を入力してサインインします。
 
