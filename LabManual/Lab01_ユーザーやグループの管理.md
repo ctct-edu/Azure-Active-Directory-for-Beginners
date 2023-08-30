@@ -130,7 +130,7 @@
 
 5. 「グループ」画面に戻ります。画面中央の「更新」をクリックし、作成したグループが一覧上に表示されたことを確認します。
 
-   ![module02-10](C:\Users\otokita\Documents\sc-300-lab\LabManual\module02-10.BMP)
+   ![module02-10](./media/module02-10.BMP)
 
    
 
