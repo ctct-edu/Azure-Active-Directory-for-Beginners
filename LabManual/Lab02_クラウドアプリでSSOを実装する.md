@@ -24,7 +24,7 @@
 
 ## タスク1 - Dropbox Businessを利用登録する
 
-1. Webブラウザを開き、https://www.dropbox.com/business/try?sku=advにアクセスします。
+1. Webブラウザを開き、https://www.dropbox.com/business/try?sku=adv にアクセスします。
 
    > 参考：今回はSSOをするためAdvancedの無料試用版を用意しています。
    >
