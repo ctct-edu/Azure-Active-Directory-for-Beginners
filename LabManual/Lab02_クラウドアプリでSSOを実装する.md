@@ -24,9 +24,9 @@
 
 ## タスク1 - Dropbox Businessを利用登録する
 
-1. Webブラウザを開き、https://www.dropbox.com/business/try?sku=adv にアクセスします。
+1. Webブラウザを開き、https://www.dropbox.com/try/teams?sku=business-plusにアクセスします。
 
-   > 参考：今回はSSOをするためAdvancedの無料試用版を用意しています。
+   > 参考：今回はSSOをするためBusiness Plusの無料試用版を用意しています。
    >
 
    
@@ -41,7 +41,7 @@
 
    | 項目                                 | 値                              |
    | ------------------------------------ | ------------------------------- |
-   | トライアル版のプランをお選びください | Advanced                        |
+   | トライアル版のプランをお選びください | Business Plus                   |
    | 名前                                 | taro                            |
    | 姓                                   | ctc                             |
    | メールアドレス                       | `admin@ctcXXXX.onmicrosoft.com` |
@@ -64,7 +64,7 @@
 
    ![module03-05](./media/module03-05.BMP)
 
-4. Webブラウザを使用し、https://www.dropbox.com/  にアクセスします。
+4. Webブラウザを使用し、https://www.dropbox.com/team/admin/settings/sso にアクセスします。
 
 5. サインイン画面が表示された場合、以下を入力してサインインします。
 
@@ -76,24 +76,6 @@
    | パスワード     | Pa55w.rd1234                    |
 
    ![module03-06](./media/module03-06.BMP)
-
-   
-
-6. Dropboxのダッシュボードが表示されます。「管理コンソール」をクリックします。
-
-   ![module03-09](./media/module03-09.BMP)
-
-   
-
-7. 「管理コンソール」画面が表示されます。「設定」をクリックします。
-
-   ![module03-10](./media/module03-10.BMP)
-
-   
-
-8. 設定画面が表示されます。「シングル サインオン」をクリックします。
-
-   ![module03-11](./media/module03-11.BMP)
 
    
 
