@@ -366,7 +366,7 @@
 
    
 
-7. 「Marketing | ライセンス」画面で、一覧上に「Office 365 E3」が表示されたことを確認します。
+7. 「Marketing | ライセンス」画面で、一覧上に「Microsoft Entra ID P2」が表示されたことを確認します。
 
    ![module02-41](./media/module02-41.BMP)
 
@@ -384,7 +384,7 @@
 
    
 
-10. 「Chris Green | ライセンス」画面が表示されます。一覧上に「Office 365 E3」が「継承済み (Marketing)」になっていることを確認します。
+10. 「Chris Green | ライセンス」画面が表示されます。一覧上に「Microsoft Entra ID P2」が「継承済み (Marketing)」になっていることを確認します。
 
     ![module02-44](./media/module02-44.BMP)
 
