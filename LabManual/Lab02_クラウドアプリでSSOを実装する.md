@@ -239,7 +239,7 @@
 
     
 
-16. 「Dropbox Business | SAML ベースのサインオン」の「Dropbox Business のセットアップ」にある「構成URLを展開し、「ログイン URL」の値をコピーしメモ帳などに貼り付けます。
+16. 「Dropbox Business | SAML ベースのサインオン」の「Dropbox Business のセットアップ」にある構成URLを展開し、「ログイン URL」の値をコピーしメモ帳などに貼り付けます。
 
     > 注：コピーしたリンクは、後の手順で使用します。
 
