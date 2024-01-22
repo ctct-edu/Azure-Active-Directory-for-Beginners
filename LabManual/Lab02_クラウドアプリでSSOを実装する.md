@@ -24,7 +24,7 @@
 
 ## タスク1 - Dropbox Businessを利用登録する
 
-1. Webブラウザを開き、https://www.dropbox.com/plansにアクセスします。
+1. Webブラウザを開き、https://www.dropbox.com/plans にアクセスします。
 
    > 参考：今回はSSOをするためBusiness Plusの無料試用版を用意しています。
    >
