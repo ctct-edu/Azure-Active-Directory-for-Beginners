@@ -234,7 +234,7 @@
 
     | ユーザープリンシパル名 | 表示名       | 初期パスワード                 | 名   | 姓      | 役職  | 会社名          | 部署      | 利用場所 |
     | ---------------------- | ------------ | ------------------------------ | ---- | ------- | ----- | --------------- | --------- | -------- |
-    | AdamJ                  | Adam Johnson | Skillableで取得したパスワード5 | Adam | Johnson | Sales | Contoso Company | Marketing | 日本     |
+    | AdamJ                  | Adam Johnson | 自由に設定してください。 | Adam | Johnson | Sales | Contoso Company | Marketing | 日本     |
 
     > 注:指定の無い項目は、「空欄」または「デフォルト値」で結構です。
     >
