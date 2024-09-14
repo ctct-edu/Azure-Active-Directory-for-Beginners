@@ -372,9 +372,9 @@
 
    
 
-7. 「Marketing | ライセンス」画面で、一覧上に「Office 365 E5」が表示されたことを確認します。
+7. 「Marketing | ライセンス」画面で、一覧上に割り当てたライセンスが表示されたことを確認します。
 
-   ![module02-41](./media/module02-41.BMP)
+   ![module02-41](./media/module02-41-2.BMP)
 
    
 
