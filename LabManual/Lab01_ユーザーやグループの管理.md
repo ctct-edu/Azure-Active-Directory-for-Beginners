@@ -318,9 +318,9 @@
 
     
 
-14. 「Adam Johnson | ライセンス」画面で、一覧上に「Office 365 E5」が表示されたことを確認します。
+14. 「Adam Johnson | ライセンス」画面で、一覧上に割り当てたライセンスが表示されたことを確認します。
 
-    ![module02-34](./media/module02-34.BMP)
+    ![module02-34-2](./media/module02-34-2.BMP)
 
 
 
