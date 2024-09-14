@@ -358,9 +358,9 @@
 
    
 
-5. 「ライセンス割り当ての更新」画面が表示されます。「Office 365 E5」のチェックボックスにチェックを入れ、「保存」をクリックします。
+5. 「ライセンス割り当ての更新」画面が表示されます。「Microsoft 365 E5 (no Teams)」と「Microsoft Teams Enterprise」のチェックを入れ、「保存」をクリックします。
 
-   ![module02-39](./media/module02-39.BMP)
+   ![module02-40](./media/module02-39-2.BMP)
 
    
 
