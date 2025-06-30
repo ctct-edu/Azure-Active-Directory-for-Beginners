@@ -6,7 +6,7 @@
 
 　**タスク1 - Dropbox Businessを利用登録する**
 
-　**タスク2 - Azure AD でエンタープライズアプリケーションを登録する**
+　**タスク2 - Microsoft Entra ID でエンタープライズアプリケーションを登録する**
 
 　**タスク3 - Dropbox Businessでシングルサインオンを構成する**
 
@@ -119,7 +119,7 @@
 
     
 
-## タスク2 - Entra ID でエンタープライズアプリケーションを登録する
+## タスク2 - Microsoft Entra ID でエンタープライズアプリケーションを登録する
 
 1. https://entra.microsoft.com/ へアクセスします。
 
