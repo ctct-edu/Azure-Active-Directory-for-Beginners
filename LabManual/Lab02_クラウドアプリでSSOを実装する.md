@@ -33,7 +33,7 @@
 
    
 
-2. 「Business Plus」の「無料トライアル」をクリックします。
+2. 「Advanced」の「無料トライアル」をクリックします。
 
    ![module03-01](./media/module03-01.BMP)
 
