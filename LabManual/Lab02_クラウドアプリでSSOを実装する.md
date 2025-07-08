@@ -280,7 +280,7 @@
 
 4. Dropboxのトップページが表示されます。
 
-   ![module03-31](./media/module03-31.BMP)
+      ![module03-05-5](./media/module03-05-5.BMP)
 
    
 
