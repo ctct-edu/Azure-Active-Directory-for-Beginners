@@ -112,7 +112,7 @@
 
    
 
-4. 「Azure AD ギャラリーの参照」が表示されます。「アプリケーションを検索」に「Dropbox」と入力し、「Dropbox Business」をクリックします。
+4. 「Microsoft Entra ギャラリーを参照する」が表示されます。「アプリケーションを検索」に「Dropbox」と入力し、「Dropbox Business」をクリックします。
 
    ![module03-15](./media/module03-15.BMP)
 
