@@ -130,7 +130,7 @@
 
    
 
-7. 「Dropbox Business | ユーザーとグループ」画面が表示されます。「+ユーザーまたはグループの追加(Add user/group)」をクリックします。
+7. 「Dropbox Business | ユーザーとグループ」画面が表示されます。「+ユーザーまたはグループの追加」をクリックします。
 
    ![module03-18](./media/module03-18.BMP)
 
