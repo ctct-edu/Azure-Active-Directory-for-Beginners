@@ -245,10 +245,12 @@
    | アイデンティティ プロバイダのログイン URL | エンタープライズアプリケーションの設定でコピーした「ログイン URL」 |
    | X.509 証明書                              | エンタープライズアプリケーションの設定でダウンロードした「Dropbox Business.cer」 |
 
+   ![module03-31-2](./media/module03-31-2.BMP)
+
 3. 画面右上のアカウントアイコンをクリックし、ログアウトを行います。
 
-   ![module03-31-2](./media/module03-31-3.BMP)
-   
+   ![module03-31-3](./media/module03-31-3.BMP)
+
    
 
 ## タスク4 - My Apps からDropbox Business にSSOを検証する
