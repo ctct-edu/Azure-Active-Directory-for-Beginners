@@ -31,7 +31,7 @@
 
 2. 画面左ツリーで「Entra ID」→「多要素認証」の順にクリックします。
 
-   ![module04-02](./media/module04-02.BMP)
+   ![module04-02](./media/module04-02.png)
 
    
 
