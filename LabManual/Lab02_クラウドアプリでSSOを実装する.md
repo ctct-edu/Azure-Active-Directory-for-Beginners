@@ -136,10 +136,10 @@
 
 16. 確認後、画面上部の「Logout」をクリックします。
 
-    ![module04-2-19](.\media\module04-2-19.BMP)
+    ![module04-2-19](.\media\module04-2-19.png)
 
 17. 「現在ログイン中：未ログイン」になったことを確認する。
-    ![module04-2-20](.\media\module04-2-20.BMP)
+    ![module04-2-20](.\media\module04-2-20.png)
 
 
 
