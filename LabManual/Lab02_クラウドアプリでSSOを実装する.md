@@ -30,11 +30,11 @@
    | メール、電話、Skype | `admin@xxxxxxxxxxxx.onmicrosoft.com` |
    | パスワード          | Skillableで取得したパスワード        |
 
-   ![module04-2-03](.\media\module04-2-03.png)
+   ![module04-2-03](./media/module04-2-03.png)
 
 2. 画面左から「Entra ID」→「概要」をクリックし、「テナントID」を確認し、ご自身のメモ帳等に保存します。
 
-   ![module04-2-04](.\media\module04-2-04.png)
+   ![module04-2-04](./media/module04-2-04.png)
 
 
 
@@ -54,15 +54,15 @@
 
 2. 画面左ツリーの「Entra ID」→「エンタープライズ アプリ」の順にクリックします。
 
-   ![module04-2-05](.\media\module04-2-05.BMP)
+   ![module04-2-05](./media/module04-2-05.BMP)
 
 3. 「エンタープライズ アプリケーション | すべてのアプリケーション」が表示されます。「+新しいアプリケーション」をクリックします。
 
-   ![module04-2-06](.\media\module04-2-06.BMP)
+   ![module04-2-06](./media/module04-2-06.BMP)
 
 4. 「Microsoft Entra アプリ ギャラリーの参照」が表示されます。「独自のアプリケーションの作成」をクリックします。
 
-   ![module04-2-07](.\media\module04-2-07.BMP)
+   ![module04-2-07](./media/module04-2-07.BMP)
 
 5. 「独自のアプリケーションの作成」画面が表示されます。以下の項目を入力し、「作成」をクリックします。
    注:XXXXはご自身のアカウント番号を入力してください。
@@ -73,21 +73,21 @@
    | アプリ名               | WWLxXXXXXX                                                   |
    | アプリケーションの操作 | ギャラリーに見つからないその他のアプリケーションを統合します (ギャラリー以外)（default） |
    
-   ![module04-2-08](.\media\module04-2-08.BMP)  
+   ![module04-2-08](./media/module04-2-08.BMP)  
 
 6. 画面が遷移し「設定したアプリ名（例：WWLx441768） | 概要」が表示されます。
 
    「シングルサインオン」をクリックします。
 
-   ![module04-2-09](.\media\module04-2-09.BMP)
+   ![module04-2-09](./media/module04-2-09.BMP)
 
 7. 「シングルサインオン」画面が表示されます。「SAML」をクリックします。
 
-   ![module04-2-10](.\media\module04-2-10.BMP)
+   ![module04-2-10](./media/module04-2-10.BMP)
 
 8. 「シングルサインオン」画面が表示されます。「基本的なSAML構成」の「編集」をクリックします。
 
-   ![module04-2-11](.\media\module04-2-11.BMP)
+   ![module04-2-11](./media/module04-2-11.BMP)
 
 9. 「基本的なSAML構成」画面が表示されます。
    「識別子の追加」、「応答URLの追加」から以下の値を入力し、「保存」をクリックします。
@@ -98,22 +98,22 @@
    | 識別子  | https://app-cedu-sso-lab-jpe.azurewebsites.net/Saml2     |
    | 応答URL | https://app-cedu-sso-lab-jpe.azurewebsites.net/Saml2/Acs |
 
-   ![module04-2-12](.\media\module04-2-12.BMP)
+   ![module04-2-12](./media/module04-2-12.BMP)
 
 10. 「シングルサインオン 」の画面に戻ります。もし、以下のようなポップアップが出てきた方は「いいえ、後でtestします」をクリックします。
 
-    ![module04-2-13](.\media\module04-2-13.BMP)       
+    ![module04-2-13](./media/module04-2-13.BMP)       
 
 11. シングルサインオン画面の「③SAML証明書」の中の「アプリのフェデレーションメタデータURL」をコピーし、ご自身のメモ帳等に保存します。
 
-    ![module04-2-14](.\media\module04-2-14.BMP)
+    ![module04-2-14](./media/module04-2-14.BMP)
 
 ## タスク3 - SSO確認サイトへアクセスする
 1. http://app-cedu-sso-lab-jpe.azurewebsites.net （SSO確認サイト）へアクセスします。
 
 2. 画面上部の「IdP登録」をクリックします。
 
-   ![module04-2-15](.\media\module04-2-15.BMP)
+   ![module04-2-15](./media/module04-2-15.BMP)
 
 3. IdP登録画面が開きます。以下の項目を入力し、登録をクリックします。
 
@@ -123,23 +123,23 @@
    | Tenant ID               | タスク1-2でコピーしたテナントID<br />（例：72a4842d-3309-4b90-97a7-0f49eb59fbab） |
    | Federation Metadata URL | タスク2-11でコピーしたアプリのフェデレーションメタデータURL  |
 
-   ![module04-2-16](.\media\module04-2-16.BMP)
+   ![module04-2-16](./media/module04-2-16.BMP)
 
 
 14. Idp一覧に登録済みIdpとして登録されます。「Login」をクリックします。
-    ![module04-2-17](.\media\module04-2-17.BMP)
+    ![module04-2-17](./media/module04-2-17.BMP)
 
 15. 「Claims表示」という項目が出てくればLogin成功になります。
     ※画面下の「Raw Claim データ」から認証のやり取りが見れます。
 
-    ![module04-2-18](.\media\module04-2-18.BMP)
+    ![module04-2-18](./media/module04-2-18.BMP)
 
 16. 確認後、画面上部の「Logout」をクリックします。
 
-    ![module04-2-19](.\media\module04-2-19.png)
+    ![module04-2-19](./media/module04-2-19.png)
 
 17. 「現在ログイン中：未ログイン」になったことを確認する。
-    ![module04-2-20](.\media\module04-2-20.png)
+    ![module04-2-20](./media/module04-2-20.png)
 
 
 
