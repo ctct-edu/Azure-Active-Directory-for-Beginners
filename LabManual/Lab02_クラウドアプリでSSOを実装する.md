@@ -30,7 +30,7 @@
    | メール、電話、Skype | `admin@xxxxxxxxxxxx.onmicrosoft.com` |
    | パスワード          | Skillableで取得したパスワード        |
 
-   ![module04-2-03](.\media\module04-2-03.BMP)
+   ![module04-2-03](.\media\module04-2-03.png)
 
 2. 画面左から「Entra ID」→「概要」をクリックし、「テナントID」を確認し、ご自身のメモ帳等に保存します。
 
